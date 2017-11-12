@@ -200,6 +200,7 @@ PRODUCT_PACKAGES += \
     init.qcom.rc \
     init.qcom.usb.rc \
     init.target.rc \
+    init.safailnet.rc \
     ueventd.qcom.rc
 
 # Display
