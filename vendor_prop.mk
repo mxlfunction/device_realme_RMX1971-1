@@ -95,10 +95,14 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.surface_flinger.force_hwc_copy_for_virtual_displays=true \
-    ro.surface_flinger.max_frame_buffer_acquired_buffers=2 \
+    ro.surface_flinger.max_frame_buffer_acquired_buffers=3 \
     ro.surface_flinger.max_virtual_display_dimension=4096 \
     ro.surface_flinger.vsync_event_phase_offset_ns=2000000 \
-    ro.surface_flinger.vsync_sf_event_phase_offset_ns=6000000
+    ro.surface_flinger.vsync_sf_event_phase_offset_ns=6000000 \
+    ro.surface_flinger.has_wide_color_display=true \
+    ro.surface_flinger.has_HDR_display=true \
+    ro.surface_flinger.use_color_management=true \
+    ro.surface_flinger.wcg_composition_dataspace=143261696
 
 # IMS
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -113,7 +117,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Media
 PRODUCT_PROPERTY_OVERRIDES += \
     media.settings.xml=/vendor/etc/media_profiles_vendor.xml \
-    ro.media.recorder-max-base-layer-fps=60
+    ro.media.recorder-max-base-layer-fps=60 \
     debug.stagefright.omx_default_rank.sw-audio=1 \
     debug.stagefright.omx_default_rank=0
 
@@ -141,10 +145,3 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.qti.telephony.vt_cam_interface=1 \
     persist.data.iwlan.enable=true \
     persist.dbg.wfc_avail_ovr=1
-
-# SurfaceFlinger
-PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
-    ro.surface_flinger.has_wide_color_display=true \
-    ro.surface_flinger.has_HDR_display=true \
-    ro.surface_flinger.use_color_management=true \
-    ro.surface_flinger.wcg_composition_dataspace=143261696
