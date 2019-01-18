@@ -7,6 +7,9 @@
 BOARD_VENDOR := realme
 DEVICE_PATH := device/realme/RMX1971
 
+# Display density
+TARGET_SCREEN_DENSITY := 440
+
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-2a
