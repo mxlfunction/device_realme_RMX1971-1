@@ -73,7 +73,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.display.sensortype=2 \
     vendor.display.enable_default_color_mode=1
 
-# Display density
+# Boot
+PRODUCT_PROPERTY_OVERRIDES += \
+sys.vendor.shutdown.waittime=500
 
 # DRM
 PRODUCT_PROPERTY_OVERRIDES += \
