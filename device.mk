@@ -442,3 +442,7 @@ PRODUCT_PACKAGES += \
 
 # Inherit vendor
 $(call inherit-product-if-exists, vendor/realme/RMX1971/RMX1971-vendor.mk)
+    
+# Via
+PRODUCT_PACKAGES += \
+    Via
