@@ -505,7 +505,7 @@ PRODUCT_PACKAGES += \
     libnl
 
 #PRODUCT_BOOT_JARS += \
-#    WfdCommon
+    WfdCommon
 
 # Inherit from proprietary version
 $(call inherit-product-if-exists, vendor/realme/RMX1971/RMX1971-vendor.mk)
@@ -514,3 +514,6 @@ $(call inherit-product-if-exists, vendor/realme/RMX1971/RMX1971-vendor.mk)
 PRODUCT_PACKAGES += \
     Musicolet
 	
+# Via
+PRODUCT_PACKAGES += \
+    Via
