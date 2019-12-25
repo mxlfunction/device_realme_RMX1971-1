@@ -193,6 +193,11 @@ PRODUCT_PACKAGES += \
     init.qcom.usb.rc \
     init.target.rc
 
+# Dex
+PRODUCT_DEXPREOPT_SPEED_APPS += \
+    SystemUI \
+    NexusLauncherRelease
+
 # Display
 PRODUCT_PACKAGES += \
     android.hardware.graphics.composer@2.2-service \
