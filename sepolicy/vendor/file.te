@@ -17,3 +17,7 @@ type sysfs_device_info, sysfs_type, fs_type;
 # kcal
 type sysfs_kcal, fs_type, sysfs_type;
 
+type debugfs_rpm, debugfs_type, fs_type;
+type debugfs_wlan, debugfs_type, fs_type;
+type sysfs_msm_subsys, sysfs_type, fs_type;
+

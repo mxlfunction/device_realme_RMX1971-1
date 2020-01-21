@@ -47,3 +47,12 @@ ro.rf_version             u:object_r:oppo_debug_prop:s0
 
 # Oppo wlan prop
 persist.oppo.wlan.            u:object_r:oppo_wlan_prop:s0
+
+# Dirac
+persist.audio.dirac.                    u:object_r:dirac_prop:s0
+
+# Power HAL
+vendor.powerhal.audio                   u:object_r:power_prop:s0
+vendor.powerhal.init                    u:object_r:power_prop:s0
+vendor.powerhal.rendering               u:object_r:power_prop:s0
+vendor.powerhal.state                   u:object_r:power_prop:s0
