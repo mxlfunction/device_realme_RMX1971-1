@@ -115,10 +115,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.display.sensortype=2 \
     vendor.display.enable_default_color_mode=1
 
-# Display cutout
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.potato.has_cutout=true
-
 # Display density
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.sf.lcd_density=420
