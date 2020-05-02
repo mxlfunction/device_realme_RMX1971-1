@@ -3,3 +3,4 @@ allow init hal_display_postproc_hwservice:hwservice_manager { find };
 allow init hwservicemanager:binder { transfer };
 allow init proc_oppoversion:file { read };
 allow init vendor_file:file { execute };
+allow init sysfs_kcal:file w_file_perms;
