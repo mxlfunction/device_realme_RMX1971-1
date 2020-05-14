@@ -48,3 +48,6 @@ ro.rf_version             u:object_r:oppo_debug_prop:s0
 
 # Oppo wlan prop
 persist.oppo.wlan.            u:object_r:oppo_wlan_prop:s0
+
+# Alarm
+ro.alarm_boot                   u:object_r:vendor_alarm_boot_prop:s0
