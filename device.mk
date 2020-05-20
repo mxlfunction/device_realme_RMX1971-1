@@ -27,9 +27,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
 
-# Properties
--include $(LOCAL_PATH)/vendor_props.mk
-
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
 # Permissions
@@ -80,6 +77,10 @@ PRODUCT_COPY_FILES += \
 # AID/fs configs
 PRODUCT_PACKAGES += \
     fs_config_files
+
+# Device Properties
+-include $(LOCAL_PATH)/vendor_prop.mk
+-include $(LOCAL_PATH)/product_prop.mk
 
 # ANT+
 PRODUCT_PACKAGES += \
