@@ -128,6 +128,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.extension_library=libqti-perfd-client.so \
     ro.vendor.at_library=libqti-at.so \
+    ro.sys.fw.dex2oat_thread_count=8 \
     persist.vendor.qti.games.gt.prof=1
 
 # HWUI properties
