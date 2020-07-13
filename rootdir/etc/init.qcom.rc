@@ -1384,14 +1384,6 @@ service vendor.audio-hal /vendor/bin/hw/android.hardware.audio.service
     interface android.hardware.audio@2.0::IDevicesFactory default
     onrestart restart audioserver
 
-service vendor.contexthub-hal-1-0 /vendor/bin/hw/android.hardware.contexthub@1.0-service
-    override
-    class hal
-    interface android.hardware.contexthub@1.0::IContexthub default
-    user system
-    group system
-    disabled
-
 #ifdef VENDOR_EIDT
 #wushuxun@PSW.CN.Wifi.Network.internet.1074197, 2018/11/08,
 #Add for make WCNSS_qcom_cfg.ini Rom-update.
