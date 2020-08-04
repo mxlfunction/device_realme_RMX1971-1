@@ -455,11 +455,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vndk-sp
 
-# Wallpapers
-PRODUCT_PACKAGES += \
-    WallpapersBReel2019
-
-# WiFi
+# Wifi
 PRODUCT_PACKAGES += \
     android.hardware.wifi@1.0-service \
     hostapd \
