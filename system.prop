@@ -101,7 +101,7 @@ persist.vendor.qti.telephony.vt_cam_interface=2
 ro.telephony.iwlan_operation_mode=legacy
 
 # SafteyNet prop
-ro.build.fingerprint=google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys
+ro.build.fingerprint=google/coral/coral:10/QQ3A.200805.001/6578210:user/release-keys
 
 # SSR
 persist.vendor.ssr.enable_ramdumps=0
