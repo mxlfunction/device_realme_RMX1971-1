@@ -162,6 +162,10 @@ PRODUCT_PACKAGES += \
     com.quicinc.cne \
     services-ext
 
+# Common init scripts
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/rootdir/ueventd.rc:$(TARGET_COPY_OUT_VENDOR)/ueventd.rc
+
 # Device init scripts
 PRODUCT_PACKAGES += \
     init.class_late.sh \
@@ -192,8 +196,7 @@ PRODUCT_PACKAGES += \
     init.qcom.factory.rc \
     init.qcom.rc \
     init.qcom.usb.rc \
-    init.target.rc \
-    ueventd.rc
+    init.target.rc
 
 # Display
 PRODUCT_PACKAGES += \
