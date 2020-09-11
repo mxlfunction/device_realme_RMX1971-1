@@ -1802,3 +1802,7 @@ vendor/lib64/libhdcp2p2prov.so|c5e991cb188117d58320033e329bedda92afe139
 vendor/lib64/libmmparser_lite_proprietary.so|fe952ec8f8ec35bc53a3d7b86850f5bca6ffa41b
 vendor/lib64/libwfdhdcpcp.so|59c1bb06ccc40f4ae388b657e513fd9d946b4d9c
 vendor/lib64/vendor.qti.hardware.wifidisplaysession@1.0.so|e0f6482a66992a15621012a755003b6d1790ce16
+
+# VNDK
+vendor/lib/vndk-sp/libcutils.so|7276c71299f501f1de8469b8bf1baffcf60180f3
+vendor/lib/vndk/libprocessgroup.so|164204f6902c40dc438c064c88afd0e2749c93f4
