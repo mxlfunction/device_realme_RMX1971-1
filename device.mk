@@ -339,6 +339,10 @@ PRODUCT_BOOT_JARS += \
     QPerformance \
     UxPerformance
 
+# OTA
+PRODUCT_HOST_PACKAGES += \
+    signapk
+
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power@1.2-service-qti
