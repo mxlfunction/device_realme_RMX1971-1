@@ -329,6 +329,10 @@ PRODUCT_PACKAGES += \
     charger_res_images \
     product_charger_res_images
 
+# OTA
+PRODUCT_HOST_PACKAGES += \
+    signapk
+
 # OMX
 PRODUCT_PACKAGES += \
     libc2dcolorconvert \
