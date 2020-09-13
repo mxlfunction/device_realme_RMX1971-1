@@ -217,7 +217,9 @@ PRODUCT_PACKAGES += \
     libgenlock \
     libtinyxml \
     libhwbinder \
-    libhwbinder.vendor
+    libhwbinder.vendor \
+    libhidltransport \
+    libhidltransport.vendor
 
 
 # DRM
