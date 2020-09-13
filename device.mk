@@ -461,7 +461,8 @@ PRODUCT_COPY_FILES += \
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
-    hardware/qcom-caf/sdm845
+    hardware/qcom-caf/sdm845 \
+    hardware/google/pixel
 
 
 # Telephony
