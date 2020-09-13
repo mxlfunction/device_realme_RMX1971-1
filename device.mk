@@ -209,12 +209,16 @@ PRODUCT_PACKAGES += \
     libhwc2onfbadapter \
     libqdMetaData.system \
     libqdMetaData \
-    libtinyxml \
     libvulkan \
     memtrack.sdm710 \
     vendor.display.config@1.7 \
     vendor.qti.hardware.display.allocator@1.0-service \
-    libgui_vendor
+    libgui_vendor \
+    libgenlock \
+    libtinyxml \
+    libhwbinder \
+    libhwbinder.vendor
+
 
 # DRM
 PRODUCT_PACKAGES += \
