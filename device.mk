@@ -19,6 +19,9 @@ TARGET_SCREEN_WIDTH := 1080
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
+    
+PRODUCT_PACKAGES += \
+    NusantaraPapers
 
 # Properties
 -include $(LOCAL_PATH)/vendor_props.mk

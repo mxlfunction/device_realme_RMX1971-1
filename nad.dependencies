@@ -1,0 +1,12 @@
+[
+  {
+    "repository": "PotatoDevices/vendor_realme_RMX1971",
+    "target_path": "vendor/realme/RMX1971",
+    "branch": "croquette-release"
+  },
+  {
+    "repository": "PotatoDevices/kernel_realme_RMX1971",
+    "target_path": "kernel/realme/RMX1971",
+    "branch": "croquette-release"
+  }
+]
