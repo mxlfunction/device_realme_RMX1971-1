@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2020 ZenX-OS Project
+# Copyright (C) 2019 The LineageOS Project
 #
 # SPDX-License-Identifer: Apache-2.0
 #
@@ -10,10 +10,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
-# Inherit some common ZenX-OS stuff.
-$(call inherit-product, vendor/zenx/config/common_full_phone.mk)
+TARGET_SUPPORTS_GOOGLE_RECORDER := true
 
-# Inherit from RMX1971 device.
+# Inherit some common LineageOS stuff.
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+
+# Inherit from RMX1901 device.
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 # Bootanimation
@@ -29,7 +31,7 @@ ZENX_BUILD_TYPE := Official
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_DEVICE := RMX1971
-PRODUCT_NAME := zenx_RMX1971
+PRODUCT_NAME := aosp_RMX1971
 PRODUCT_BRAND := Realme
 PRODUCT_MODEL := Realme 5 Pro
 PRODUCT_MANUFACTURER := Realme
