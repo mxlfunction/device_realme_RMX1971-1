@@ -15,7 +15,7 @@ TARGET_SUPPORTS_GOOGLE_RECORDER := true
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
-# Inherit from RMX1901 device.
+# Inherit from RMX1971 device.
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 # Bootanimation
@@ -23,11 +23,11 @@ TARGET_BOOT_ANIMATION_RES := 1080
 
 # Gapps Config
 TARGET_GAPPS_ARCH := arm64
-WITH_GAPPS := true
-IS_PHONE := true
+#WITH_GAPPS := true
+#IS_PHONE := true
 
 #Official-ify
-ZENX_BUILD_TYPE := Official
+CUSTOM_BUILD_TYPE := Realme
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_DEVICE := RMX1971
@@ -39,9 +39,10 @@ PRODUCT_MANUFACTURER := Realme
 PRODUCT_GMS_CLIENTID_BASE := android-realme
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="coral-user 10 QQ3A.200705.002 6506677 release-keys"
+    PRIVATE_BUILD_DESC="coral-user 11 RP1A.200720.009 6720564 release-keys"
 
-BUILD_FINGERPRINT := "google/coral/coral:10/QQ3A.200805.001/6578210:user/release-keys"
+
+BUILD_FINGERPRINT :="google/coral/coral:11/RP1A.200720.009/6720564:user/release-keys"
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="RMX1971" \
