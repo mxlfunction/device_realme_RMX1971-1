@@ -5,4 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_RMX1971.mk
+    $(LOCAL_DIR)/havoc_RMX1971.mk
+
+COMMON_LUNCH_CHOICES := \
+    zenx_RMX1971-user \
+    zenx_RMX1971-userdebug \
+    zenx_RMX1971-eng
