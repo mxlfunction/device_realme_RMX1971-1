@@ -8,6 +8,6 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/havoc_RMX1971.mk
 
 COMMON_LUNCH_CHOICES := \
-    zenx_RMX1971-user \
-    zenx_RMX1971-userdebug \
-    zenx_RMX1971-eng
+    havoc_RMX1971-user \
+    havoc_RMX1971-userdebug \
+    havoc_RMX1971-eng
