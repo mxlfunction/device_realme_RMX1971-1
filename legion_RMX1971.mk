@@ -10,10 +10,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
-# Inherit some common rr stuff.
-$(call inherit-product, vendor/rr/config/common_full_phone.mk)
+# Inherit some common legion stuff.
+$(call inherit-product, vendor/legion/config/common.mk)
 
-# Inherit from RMX1901 device.
+# Inherit from RMX1971 device.
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 # Bootanimation
@@ -24,7 +24,7 @@ TARGET_GAPPS_ARCH := arm64
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_DEVICE := RMX1971
-PRODUCT_NAME := rr_RMX1971
+PRODUCT_NAME := legion_RMX1971
 PRODUCT_BRAND := Realme
 PRODUCT_MODEL := Realme 5 Pro
 PRODUCT_MANUFACTURER := Realme
@@ -39,7 +39,3 @@ BUILD_FINGERPRINT := "google/coral/coral:11/RP1A.200720.009/6720564:user/release
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="RMX1971" \
     TARGET_DEVICE="RMX1971"
-
-# RR Stuffs
-TARGET_FACE_UNLOCK_SUPPORTED := true
-RR_BUILDTYPE := Official
