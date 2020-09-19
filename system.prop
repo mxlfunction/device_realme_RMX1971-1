@@ -48,7 +48,6 @@ dalvik.vm.image-dex2oat-filter=quicken
 dalvik.vm.image-dex2oat-threads=8
 
 # Graphics
-debug.sf.enable_hwc_vds=1
 debug.sf.latch_unsignaled=1
 persist.debug.wfd.enable=1
 persist.demo.hdmirotationlock=false
