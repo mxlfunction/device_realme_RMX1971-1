@@ -124,6 +124,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.hardware.keystore_desede=true
 
+# Cam2api
+persist.camera.HAL3.enabled=1
+
 # Media
 PRODUCT_PROPERTY_OVERRIDES += \
     media.settings.xml=/vendor/etc/media_profiles_vendor.xml \
