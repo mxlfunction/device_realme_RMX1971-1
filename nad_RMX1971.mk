@@ -16,10 +16,6 @@ TARGET_SUPPORTS_GOOGLE_RECORDER := true
 # Inherit some common Potato stuff.
 $(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
 
-
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/havoc/config/common_full_phone.mk)
-
 # Inherit from RMX1971 device.
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 $(call inherit-product, packages/apps/NusantaraParts/nadproject.mk)
