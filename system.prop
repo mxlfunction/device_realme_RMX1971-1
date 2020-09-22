@@ -35,8 +35,15 @@ persist.data.wda.enable=true
 persist.rmnet.data.enable=true
 ro.use_data_netmgrd=true
 
-# Display Cutout
-ro.potato.has_cutout=true
+# Dex
+pm.dexopt.ab-ota=speed-profile
+dalvik.vm.dex2oat-filter=speed
+dalvik.vm.image-dex2oat-filter=speed
+ro.vendor.qti.am.reschedule_service=true
+ro.sys.fw.dex2oat_thread_count=8
+dalvik.vm.boot-dex2oat-threads=8
+dalvik.vm.dex2oat-threads=4
+dalvik.vm.image-dex2oat-threads=4
 
 # Graphics
 debug.sf.enable_hwc_vds=1
