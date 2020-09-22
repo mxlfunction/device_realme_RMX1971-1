@@ -358,7 +358,7 @@ PRODUCT_HOST_PACKAGES += \
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power@1.2-service-qti
+    android.hardware.power-service-qti
 
 # Perf
 PRODUCT_COPY_FILES += \

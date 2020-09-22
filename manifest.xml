@@ -1,5 +1,4 @@
-@ -1,29 +1,4 @@
-<!-- Copyright (c) 2017-2019 The Linux Foundation. All rights reserved.
+<!-- Copyright (c) 2017-2019, The Linux Foundation. All rights reserved.
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are
 met:
@@ -205,15 +204,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
             <instance>qti-dsp</instance>
             <instance>qti-gpu</instance>
             <instance>qti-hta</instance>
-        </interface>
-    </hal>
-    <hal format="hidl">
-        <name>android.hardware.power</name>
-        <transport>hwbinder</transport>
-        <version>1.2</version>
-        <interface>
-            <name>IPower</name>
-            <instance>default</instance>
         </interface>
     </hal>
     <hal format="hidl">
