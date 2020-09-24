@@ -530,7 +530,4 @@ $(call inherit-product-if-exists, vendor/realme/RMX1971/RMX1971-vendor.mk)
 # Music
 PRODUCT_PACKAGES += \
     Musicolet
-
-#FireFoxLite
-PRODUCT_PACKAGES += \
-     FireFoxLite
+	
