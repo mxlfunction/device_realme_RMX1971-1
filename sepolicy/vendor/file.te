@@ -17,10 +17,3 @@ type sysfs_device_info, sysfs_type, fs_type;
 # kcal
 type sysfs_kcal, fs_type, sysfs_type;
 
-type dpmd, file_type, data_file_type;
-type cnd, file_type, data_file_type;
-type cdsprpcd, file_type, data_file_type;
-type adsprpcd, file_type;
-type sysfs_kgsl, file_type, data_file_type;
-type persist_file, file_type, vendor_persist_type;
-type sensors_persist_file, file_type, vendor_persist_type; 
