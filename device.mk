@@ -521,7 +521,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libnl
 
-<<<<<<< HEAD
 #PRODUCT_BOOT_JARS += \
 #    WfdCommon
 
@@ -532,9 +531,7 @@ $(call inherit-product-if-exists, vendor/realme/RMX1971/RMX1971-vendor.mk)
 PRODUCT_PACKAGES += \
     Musicolet
 	
-=======
 # Via
 PRODUCT_PACKAGES += \
     Via
 
->>>>>>> e1c159c... tissot: add prebuilt via
