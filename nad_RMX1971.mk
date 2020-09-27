@@ -21,6 +21,14 @@ TARGET_BOOT_ANIMATION_RES := 1080
 NAD_BUILD_TYPE := OFFICIAL
 TARGET_USES_BLUR := true
 
+# Gapps Config
+TARGET_GAPPS_ARCH := arm64
+#WITH_GAPPS := true
+#IS_PHONE := true
+
+#Official-ify
+CUSTOM_BUILD_TYPE := Realme
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_DEVICE := RMX1971
 PRODUCT_NAME := nad_RMX1971
