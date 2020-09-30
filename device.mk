@@ -20,8 +20,9 @@ TARGET_SCREEN_WIDTH := 1080
 PRODUCT_TARGET_VNDK_VERSION := 29
 PRODUCT_EXTRA_VNDK_VERSIONS := 29
 
-# Enable updating of APEXes
-$(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
+# Dalvik heap
+$(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
+
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
