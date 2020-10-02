@@ -518,3 +518,7 @@ PRODUCT_PACKAGES += \
 # Via
 PRODUCT_PACKAGES += \
     Via
+
+# GalleryGo
+PRODUCT_PACKAGES += \
+    GalleryGo 
