@@ -23,6 +23,9 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
 
+# VNDK Extra version
+PRODUCT_EXTRA_VNDK_VERSIONS := 29
+
 # Properties
 -include $(LOCAL_PATH)/prop.mk
 
