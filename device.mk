@@ -555,3 +555,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Via
 
+# GalleryGo
+PRODUCT_PACKAGES += \
+    GalleryGo 
