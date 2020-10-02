@@ -465,3 +465,7 @@ PRODUCT_BOOT_JARS += \
 # Via
 PRODUCT_PACKAGES += \
     Via
+
+# GalleryGo
+PRODUCT_PACKAGES += \
+    GalleryGo 
