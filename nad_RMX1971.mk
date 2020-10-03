@@ -24,6 +24,7 @@ TARGET_USES_BLUR := true
 
 # Gapps Config
 TARGET_GAPPS_ARCH := arm64
+USE_PIXEL_CHARGING := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_DEVICE := RMX1971
