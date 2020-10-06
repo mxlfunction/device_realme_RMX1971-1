@@ -168,3 +168,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
 ro.min.fling_velocity=160 \
 ro.max.fling_velocity=20000
+
+#BlurGang 
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.sf.blurs_are_expensive=1 \
+    ro.surface_flinger.supports_background_blur=1 \
+    debug.sf.latch_unsignaled=1 \
+    debug.sf.disable_backpressure=1
