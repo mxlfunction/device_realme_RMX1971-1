@@ -193,6 +193,7 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.surface_flinger.wcg_composition_dataspace=143261696 \
     ro.surface_flinger.max_frame_buffer_acquired_buffers=3
 
+<<<<<<< HEAD
 # Phase offsets
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     debug.sf.use_phase_offsets_as_durations=1 \
@@ -202,3 +203,16 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     debug.sf.early.app.duration=16500000 \
     debug.sf.earlyGl.sf.duration=13500000 \
     debug.sf.earlyGl.app.duration=21000000
+=======
+# Fling Velocity
+PRODUCT_PROPERTY_OVERRIDES += \
+ro.min.fling_velocity=160 \
+ro.max.fling_velocity=20000
+
+#BlurGang 
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.sf.blurs_are_expensive=1 \
+    ro.surface_flinger.supports_background_blur=1 \
+    debug.sf.latch_unsignaled=1 \
+    debug.sf.disable_backpressure=1
+>>>>>>> 08ed170... RMX1971: enable A11 live blur by default

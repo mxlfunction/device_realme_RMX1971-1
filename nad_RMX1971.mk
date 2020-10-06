@@ -15,13 +15,12 @@ $(call inherit-product, vendor/nusantara/config/common.mk)
 
 # Inherit from RMX1971 device.
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
-$(call inherit-product, packages/apps/NusantaraParts/nadproject.mk)
+#$(call inherit-product, packages/apps/NusantaraParts/nadproject.mk)
 
 # Bootanimation
 TARGET_BOOT_ANIMATION_RES := 1080
 NAD_BUILD_TYPE := OFFICIAL
 TARGET_USES_BLUR := true
-USE_PIXEL_CHARGING := true
 
 # Gapps Config
 TARGET_GAPPS_ARCH := arm64
