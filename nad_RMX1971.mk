@@ -24,7 +24,6 @@ TARGET_USES_BLUR := true
 
 # Gapps Config
 TARGET_GAPPS_ARCH := arm64
-USE_PIXEL_CHARGING := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_DEVICE := RMX1971
@@ -36,9 +35,9 @@ PRODUCT_MANUFACTURER := Realme
 PRODUCT_GMS_CLIENTID_BASE := android-realme
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="coral-user 11 RP1A.200720.009 6720564 release-keys"
+    PRIVATE_BUILD_DESC="coral-user 11 RP1A.201005.006 6828489 release-keys"
 
-BUILD_FINGERPRINT := "google/coral/coral:11/RP1A.200720.009/6720564:user/release-keys"
+BUILD_FINGERPRINT := "google/sunfish/sunfish:11/RP1A.201005.006/6828489:user/release-keys"
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="RMX1971" \

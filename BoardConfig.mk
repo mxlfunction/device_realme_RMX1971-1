@@ -95,6 +95,10 @@ USE_DEVICE_SPECIFIC_CAMERA := true
 
 # Charger Mode
 BOARD_CHARGER_ENABLE_SUSPEND := true
+WITH_CUSTOM_CHARGER := false
+
+# Offline Charger
+USE_PIXEL_CHARGING := true
 
 # CNE and DPM
 BOARD_USES_QCNE := true
