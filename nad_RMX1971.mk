@@ -21,6 +21,7 @@ $(call inherit-product, packages/apps/NusantaraParts/nadproject.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 NAD_BUILD_TYPE := OFFICIAL
 TARGET_USES_BLUR := true
+USE_PIXEL_CHARGING := true
 
 # Gapps Config
 TARGET_GAPPS_ARCH := arm64

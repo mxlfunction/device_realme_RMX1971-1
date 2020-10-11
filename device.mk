@@ -220,7 +220,7 @@ PRODUCT_DEXPREOPT_SPEED_APPS += \
     NexusLauncherRelease
 
 # Charger
-include $(LOCAL_PATH)/rootdir/charger/charger.mk
+#include $(LOCAL_PATH)/rootdir/charger/charger.mk
 
 # Display
 PRODUCT_PACKAGES += \
@@ -368,9 +368,9 @@ PRODUCT_PACKAGES += \
     netutils-wrapper-1.0
 
 # Offline charger
-#PRODUCT_PACKAGES += \
-#    charger_res_images \
-#    product_charger_res_images
+PRODUCT_PACKAGES += \
+    charger_res_images \
+    product_charger_res_images
 
 # OTA
 PRODUCT_HOST_PACKAGES += \

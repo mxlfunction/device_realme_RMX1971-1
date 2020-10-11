@@ -1149,8 +1149,7 @@ service profiler_daemon /system/bin/profiler_daemon
 
 service charger /system/bin/charger
     class charger
-    user system
-    group system graphics input
+    group system graphics
     capabilities SYS_BOOT
     seclabel u:r:charger:s0
     
@@ -1450,6 +1449,7 @@ on property:oppo.wifirftest.enable=1
 on property:oppo.wifirftest.enable=0
     stop wifirfmodetest
 #endif
+
 service vendor.imsdatadaemon /vendor/bin/imsdatadaemon
     override
     class main
@@ -1457,13 +1457,3 @@ service vendor.imsdatadaemon /vendor/bin/imsdatadaemon
     socket ims_datad stream 0660 system radio
     group radio wifi inet vendor_qti_diag log
     disabled
-# Smart Charging
-on boot
-    chmod 0666 /sys/class/power_supply/battery/input_suspend
-    chmod 0666 /sys/class/power_supply/battery/charging_enabled
-    chown system system /sys/class/power_supply/battery/input_suspend
-    chown system system /sys/class/power_supply/battery/charging_enabled
-
-# FPS Info
-    chown system graphics /sys/class/drm/sde-crtc-0/measured_fps
-    chmod 0666 /sys/class/drm/sde-crtc-0/measured_fps
