@@ -454,10 +454,6 @@ PRODUCT_PACKAGES += \
     qcrilhook
 
 
-PRODUCT_BOOT_JARS += \
-    telephony-ext \
-    qcrilhook
-
 
 # TextClassifier
 PRODUCT_PACKAGES += \
