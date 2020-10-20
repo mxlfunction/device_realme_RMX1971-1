@@ -18,7 +18,7 @@ $(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
 
 # Inherit from RMX1971 device.
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
-$(call inherit-product, packages/apps/NusantaraParts/nadproject.mk)
+#$(call inherit-product, packages/apps/NusantaraParts/nadproject.mk)
 
 # Bootanimation
 TARGET_BOOT_ANIMATION_RES := 1080
