@@ -1,2 +1,3 @@
 allow bootanim sysfs_kgsl:dir { search };
 allow bootanim vendor_audio_prop:file { read open getattr };
+allow bootanim userspace_reboot_exported_prop:file { read };
