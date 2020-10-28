@@ -970,6 +970,11 @@ vendor/lib64/vendor.qti.gnss@3.0-service.so|592b30d57dee4b5acd2b55ad5d1a6964662d
 vendor/lib64/vendor.qti.gnss@3.0.so|728a662489358ac47589e69b909cd9de438591a0
 
 # Graphics - from PNX_00WW_FIH-user 10 QKQ1.190725.002 00WW_4_15B release-keys
+vendor/etc/permissions/android.hardware.opengles.aep.xml
+vendor/etc/permissions/android.hardware.vulkan.compute.xml 
+vendor/etc/permissions/android.hardware.vulkan.level.xml 
+vendor/etc/permissions/android.hardware.vulkan.version.xml
+vendor/etc/permissions/android.software.vulkan.deqp.level.xml
 vendor/lib/egl/eglSubDriverAndroid.so|b7669ce41dcdf5738caef00ff21deec2375b2f1d
 vendor/lib/egl/libEGL_adreno.so|c749acf17f7c3bb94d8c2e36bceaa2a3114f8e4e
 vendor/lib/egl/libGLESv1_CM_adreno.so|959e1bcfe43f8926cd89e3e4978b499e314a9182
