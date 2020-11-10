@@ -173,7 +173,7 @@ ENABLE_VENDOR_RIL_SERVICE := true
 TARGET_USE_AOSP_SURFACEFLINGER := true
 
 # Security patch level
-VENDOR_SECURITY_PATCH := 2020-02-05
+VENDOR_SECURITY_PATCH := 2020-11-05
 
 # Sepolicy
 include device/qcom/sepolicy/sepolicy.mk
