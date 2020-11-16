@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/awaken_RMX1971.mk
+    $(LOCAL_DIR)/nad_RMX1971.mk
