@@ -23,6 +23,8 @@ PRODUCT_EXTRA_VNDK_VERSIONS := 29
 # Dalvik heap
 $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 
+# Prebuilt
+$(call inherit-product-if-exists, device/bloatware/config.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
