@@ -37,6 +37,9 @@ PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
 # Properties
 -include $(LOCAL_PATH)/vendor_props.mk
 
+# Enable updating of APEXes
+$(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
+
 # Permissions
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.audio.low_latency.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.audio.low_latency.xml \
@@ -103,7 +106,6 @@ PRODUCT_PACKAGES += \
     android.hardware.audio.effect@2.0-service \
     android.hardware.audio.effect@6.0-impl \
     audio.primary.sdm710 \
-    audio.a2dp.default \
     audio.r_submix.default \
     audio.usb.default \
     libaudio-resampler \
