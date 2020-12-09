@@ -153,6 +153,10 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-service \
     android.hardware.drm@1.3-service.clearkey
 
+# Doze
+PRODUCT_PACKAGES += \
+    GalaxyParts
+
 # Enable updating of APEXes
 $(call inherit-product-if-exists, vendor/prebuilts/config/apex.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
@@ -348,7 +352,8 @@ PRODUCT_PACKAGES += \
     init.recovery.qcom.rc \
     init.target.rc \
     ueventd.qcom.rc \
-    init.safailnet.rc
+    init.safailnet.rc \
+    init.GalaxyParts.rc
 
 # RCS
 PRODUCT_PACKAGES += \
