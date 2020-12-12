@@ -181,8 +181,9 @@ VENDOR_SECURITY_PATCH := 2020-12-01
 
 # Sepolicy
 SELINUX_IGNORE_NEVERALLOWS := true
-include device/qcom/sepolicy/sepolicy.mk
+include device/qcom/sepolicy-legacy-um/sepolicy.mk
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
+
 
 # Verified Boot
 BOARD_AVB_ENABLE := true
