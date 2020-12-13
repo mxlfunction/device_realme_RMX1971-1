@@ -159,10 +159,10 @@ PRODUCT_PACKAGES += \
 
 # Enable updating of APEXes
 $(call inherit-product-if-exists, vendor/prebuilts/config/apex.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
 # Dalvik heap
 $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
-
 
 # Fingerprint
 PRODUCT_PACKAGES += \
@@ -471,4 +471,6 @@ PRODUCT_PACKAGES += \
 
 # GalleryGo
 PRODUCT_PACKAGES += \
-    GalleryGo 
+    GalleryGo \
+    GCamGo \
+    OtoMusic
