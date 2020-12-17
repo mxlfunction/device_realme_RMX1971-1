@@ -465,6 +465,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     WfdCommon
     
+# World APN list
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/prebuilt/etc/apns-conf.xml:system/etc/apns-conf.xml
+
 # Via
 PRODUCT_PACKAGES += \
     Via
