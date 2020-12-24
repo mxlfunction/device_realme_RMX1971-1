@@ -1,4 +1,4 @@
-allow system_server sysfs:file { getattr };
+#allow system_server sysfs:file { getattr };
 allow system_server vendor_default_prop:file { read open getattr };
 
 # Allow system_server to set persist_camera_prop
@@ -9,3 +9,8 @@ get_prop(system_server, persist_camera_prop)
 allow system_server exported_camera_prop:file { read };
 allow system_server sysfs:file { read };
 allow system_server default_android_service:service_manager { add };
+
+allow system_server init:binder call;
+allow system_server system_file:dir write;
+allow system_server vendor_file:file { getattr open read };
+dontaudit system_server sysfs:file { read open getattr };

@@ -3,3 +3,5 @@ allow init hal_display_postproc_hwservice:hwservice_manager { find };
 allow init hwservicemanager:binder { transfer };
 allow init proc_oppoversion:file { read };
 allow init vendor_file:file { execute };
+allow init sysfs_graphics:file { open read write };
+allow init system_server:binder call;
