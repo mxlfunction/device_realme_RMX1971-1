@@ -6,15 +6,21 @@
     "target_path": "device/realme/RMX1971"
   },
   {
-    "remote":"ghpriv",
-    "branch":"R-L",
-    "repository": "NusantaraROM-Devices/vendor_realme_RMX1971",
+    "remote":"priv",
+    "branch":"R",
+    "repository": "LuckVii/vendor_realme_RMX1971",
     "target_path": "vendor/realme/RMX1971"
   },
   {
     "repository": "LuckVii/kernel_realme_RMX1971",
     "target_path": "kernel/realme/RMX1971",
     "branch": "11",
+    "remote": "priv"
+  },
+  {
+    "repository": "Nusantara-ROM/android_hardware_qcom_display",
+    "target_path": "hardware/qcom-caf/sdm845/display",
+    "branch": "11-845",
     "remote": "priv"
   }
 ]
