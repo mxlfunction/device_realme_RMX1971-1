@@ -1,0 +1,20 @@
+[
+  {
+    "remote":"ghpriv",
+    "branch":"R-L",
+    "repository": "NusantaraROM-Devices/device_realme_RMX1971",
+    "target_path": "device/realme/RMX1971"
+  },
+  {
+    "remote":"ghpriv",
+    "branch":"R-L",
+    "repository": "NusantaraROM-Devices/vendor_realme_RMX1971",
+    "target_path": "vendor/realme/RMX1971"
+  },
+  {
+    "repository": "LuckVii/kernel_realme_RMX1971",
+    "target_path": "kernel/realme/RMX1971",
+    "branch": "11",
+    "remote": "priv"
+  }
+]
