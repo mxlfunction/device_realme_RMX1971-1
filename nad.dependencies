@@ -7,14 +7,14 @@
   },
   {
     "remote":"priv",
-    "branch":"R",
+    "branch":"R-L",
     "repository": "vendor_realme_RMX1971",
     "target_path": "vendor/realme/RMX1971"
   },
   {
     "repository": "kernel_realme_RMX1971",
     "target_path": "kernel/realme/RMX1971",
-    "branch": "11",
+    "branch": "R-L",
     "remote": "priv"
   },
   {
