@@ -2,17 +2,17 @@
   {
     "remote":"ghpriv",
     "branch":"R-L",
-    "repository": "NusantaraROM-Devices/device_realme_RMX1971",
+    "repository": "device_realme_RMX1971",
     "target_path": "device/realme/RMX1971"
   },
   {
     "remote":"priv",
     "branch":"R",
-    "repository": "LuckVii/vendor_realme_RMX1971",
+    "repository": "vendor_realme_RMX1971",
     "target_path": "vendor/realme/RMX1971"
   },
   {
-    "repository": "LuckVii/kernel_realme_RMX1971",
+    "repository": "kernel_realme_RMX1971",
     "target_path": "kernel/realme/RMX1971",
     "branch": "11",
     "remote": "priv"
@@ -22,5 +22,9 @@
     "target_path": "hardware/qcom-caf/sdm845/display",
     "branch": "11-845",
     "remote": "priv"
+  },
+  {
+    "repository": "https://github.com/kdrag0n/proton-clang",
+    "target_path": "prebuilts/clang/host/linux-x86/clang-12",
   }
 ]
