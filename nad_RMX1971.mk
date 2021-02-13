@@ -5,17 +5,20 @@
 #
 
 # Inherit some common dotOS stuff.
-$(call inherit-product, vendor/dot/config/common.mk)
+$(call inherit-product, vendor/nusantara/config/common.mk)
 
 # Inherit from RMX1971 device.
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 # Bootanimation
 TARGET_BOOT_ANIMATION_RES := 1080
+NAD_BUILD_TYPE := OFFICIAL
+TARGET_USES_BLUR := true
+
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_DEVICE := RMX1971
-PRODUCT_NAME := dot_RMX1971
+PRODUCT_NAME := nad_RMX1971
 PRODUCT_BRAND := Realme
 PRODUCT_MODEL := Realme 5 Pro
 PRODUCT_MANUFACTURER := Realme
