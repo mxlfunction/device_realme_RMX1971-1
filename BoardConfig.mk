@@ -156,6 +156,9 @@ OVERRIDE_RS_DRIVER := libRSDriver_adreno.so
 # RIL
 ENABLE_VENDOR_RIL_SERVICE := true
 
+# Ramdisk
+TARGET_USES_PREBUILT_RAMDISK_INIT := true
+
 # Security patch level
 VENDOR_SECURITY_PATCH := 2021-01-05
 
