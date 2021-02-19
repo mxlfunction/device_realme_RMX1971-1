@@ -449,4 +449,6 @@ PRODUCT_PACKAGES += \
     
 # GalleryGo
 PRODUCT_PACKAGES += \
-    GalleryGo 
+    GalleryGo \
+    GCamGo \
+    OtoMusic

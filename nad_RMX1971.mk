@@ -5,7 +5,7 @@
 #
 
 # Inherit some common dotOS stuff.
-$(call inherit-product, vendor/nusantara/config/common.mk)
+$(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
 
 # Inherit from RMX1971 device.
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -14,7 +14,7 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 NAD_BUILD_TYPE := OFFICIAL
 TARGET_USES_BLUR := true
-
+USE_PIXEL_CHARGING := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_DEVICE := RMX1971
