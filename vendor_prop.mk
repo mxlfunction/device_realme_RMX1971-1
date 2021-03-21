@@ -121,6 +121,7 @@ persist.audio.dirac.speaker=true
 PRODUCT_PROPERTY_OVERRIDES += \
     vendor.display.enable_default_color_mode=1 \
     ro.vendor.display.cabl=2 \
+    debug.sf.enable_hwc_vds=1
 
 # DRM
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -166,7 +167,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.surface_flinger.max_virtual_display_dimension=4096 \
     ro.surface_flinger.protected_contents=true \
     ro.surface_flinger.use_color_management=true \
-    ro.surface_flinger.wcg_composition_dataspace=143261696 \
+    ro.surface_flinger.wcg_composition_dataspace=143261696 
 
 # IMS
 PRODUCT_PROPERTY_OVERRIDES += \
