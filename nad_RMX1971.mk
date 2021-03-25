@@ -29,9 +29,6 @@ TARGET_GAPPS_ARCH := arm64
 #WITH_GAPPS := true
 #IS_PHONE := true
 
-#Official-ify
-CUSTOM_BUILD_TYPE := Realme
-
 # Device identifier. This must come after all inclusions.
 PRODUCT_DEVICE := RMX1971
 PRODUCT_NAME := nad_RMX1971
@@ -42,9 +39,9 @@ PRODUCT_MANUFACTURER := Realme
 PRODUCT_GMS_CLIENTID_BASE := android-realme
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="redfin-user 11 RQ1A.210105.003 7005429 release-keys"
+    PRIVATE_BUILD_DESC="redfin-user 11 SPP1.210122.022 7158812 release-keys"
 
-BUILD_FINGERPRINT := google/redfin/redfin:11/RQ1A.210105.003/7005429:user/release-keys
+BUILD_FINGERPRINT := google/redfin/redfin:11/SPP1.210122.022/7158812:user/release-keys
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="RMX1971" \
