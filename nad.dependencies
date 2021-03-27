@@ -6,6 +6,12 @@
     "target_path": "vendor/realme/RMX1971"
   },
   {
+    "remote": "github",
+    "repository": "kdrag0n/proton-clang",
+    "target_path": "prebuilts/clang/host/linux-x86/clang-proton",
+    "branch": "master"
+  },
+  {
     "remote": "device",
     "branch": "10-nx",
     "repository": "kernel_realme_RMX1971",
